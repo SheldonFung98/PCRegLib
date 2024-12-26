@@ -1,2 +1,2 @@
 # PCRegLib
-A efficient C++ lib for point cloud registration
+An efficient C++ lib for point cloud registration

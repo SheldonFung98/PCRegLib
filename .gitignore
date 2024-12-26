@@ -1,0 +1,8 @@
+build/
+.vscode/
+*.onnx
+*.so
+*.o
+*.tar
+models/
+samples/
