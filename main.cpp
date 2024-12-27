@@ -16,7 +16,7 @@ int main(int argc, char const *argv[]){
 
     PCRegLib pcreglib;
     pcreglib.init();
-    pcreglib.load_pcd(sourceFile, targetFile);
-
+    Eigen::Matrix4f transformation_pred;
+    pcreglib.run_registration(sourceFile, targetFile, transformation_pred);
     return 0;
 }

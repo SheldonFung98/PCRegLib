@@ -1,5 +1,5 @@
 
-#include "grid_subsampling.h"
+#include "grid_subsampling/grid_subsampling.h"
 
 
 void grid_subsampling(vector<PointXYZ>& original_points,
